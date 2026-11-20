@@ -1,0 +1,2 @@
+Guarda aquí tus imágenes (logo.png, playeras.jpg, tiktok.png, mapa.png, etc.).
+Luego, en el HTML, quita los signos <!-- y --> de la línea <img> que corresponda.

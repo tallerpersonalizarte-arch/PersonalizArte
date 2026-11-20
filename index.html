@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PersonalizArte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="logo-slot" href="index.html" aria-label="Inicio"><img src="imagenes/logo.jpeg" alt="PersonalizArte, más que una impresión"></a>
+    <a class="brand-name" href="index.html" aria-label="PersonalizArte, inicio">Personaliz<span class="arte">Arte</span></a>
+    <a class="burger" href="#menu" aria-label="Abrir menú"><span></span><span></span><span></span></a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="hero" id="inicio">
+    <h1>Personalizamos <span class="under">todo</span> lo que <span class="script">imaginas</span></h1>
+    <p class="lead">Playeras, tazas, termos, lonas y mucho más, con tu diseño. Sublimado, bordado, vinil y grabado láser en un solo catálogo.</p>
+    <div class="cta"><a class="btn btn-primary" href="#catalogo">Ver catálogo</a><a class="btn btn-ghost" href="#como">Cómo pedir</a></div>
+    <div class="techs" id="tecnicas">
+      <p class="eyebrow">Técnicas con las que trabajamos</p>
+      <div class="row">
+        <span class="chip-t"><i></i>Sublimación</span>
+        <span class="chip-t"><i></i>Bordado</span>
+        <span class="chip-t"><i></i>Vinil</span>
+        <span class="chip-t"><i></i>Grabado láser</span>
+        <span class="chip-t"><i></i>Impresión en lona</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- VISION -->
+  <div class="vision" id="vision">
+    <p class="eyebrow">Quiénes somos</p>
+    <h2>Nuestra visión</h2>
+    <p class="vtext ph">"En PersonalizArte transformamos ideas, momentos y proyectos en productos únicos de alta calidad a través de servicios integrales de impresión, bordado, rotulación y grabado láser. Nos dedicamos a brindar una atención cercana, confiable y personalizada que garantice la total satisfacción de nuestros clientes, contribuyendo al realce de sus marcas, eventos y recuerdos especiales."</p>
+  </div>
+
+  <!-- CATALOGO -->
+  <section id="catalogo">
+    <div class="sec-head">
+      <p class="eyebrow">Catálogo digital</p>
+      <h2>Elige el producto, nosotros ponemos tu diseño</h2>
+      <p>Filtra por familia y entra a cada línea para ver sus diseños y precios.</p>
+    </div>
+
+    <input class="radio" type="radio" name="familia" id="f-todos" checked>
+    <input class="radio" type="radio" name="familia" id="f-ropa">
+    <input class="radio" type="radio" name="familia" id="f-beber">
+    <input class="radio" type="radio" name="familia" id="f-hogar">
+    <input class="radio" type="radio" name="familia" id="f-impresion">
+
+    <div class="tools">
+      <label for="f-todos">Todos</label>
+      <label for="f-ropa">Ropa y textil</label>
+      <label for="f-beber">Para beber</label>
+      <label for="f-hogar">Hogar y regalos</label>
+      <label for="f-impresion">Impresión y rotulación</label>
+    </div>
+
+    <div class="grid">
+      <a class="card" data-f="ropa" href="playeras.html">
+        <div class="slot"><img src="imagenes/playeraborda.jpg" alt="Playeras"></div>
+        <div class="info"><div class="fam">Ropa y textil</div><h3>Playeras</h3><div class="sub">Sublimada · Bordada · Vinil</div></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="ropa" href="gorras.html">
+        <div class="slot"><img src="imagenes/gorrasubli.jpg" alt="Gorras"></div>
+        <div class="info"><div class="fam">Ropa y textil</div><h3>Gorras</h3><div class="sub">Sublimadas · Bordadas</div></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="ropa" href="bolsas.html">
+        <div class="slot"><img src="imagenes/bolsaeco.jpg" alt="Bolsas"></div>
+        <div class="info"><div class="fam">Ropa y textil</div><h3>Bolsas</h3><div class="sub">Bolsas de yute · Bolsas tipo ecológicas · Bolsas de mandado</div></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="beber" href="tazas.html">
+        <div class="slot"><img src="imagenes/taza.webp" alt="Tazas"></div>
+        <div class="info"><div class="fam">Para beber</div><h3>Tazas</h3><div class="sub">Tazas mágicas</div></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="beber" href="vasos-vinil.html">
+        <div class="slot"><img src="imagenes/vasosperso.jpg" alt="Vasos vinil"></div>
+        <div class="info"><div class="fam">Para beber</div><h3>Vasos vinil</h3><div class="sub">Tequileros · Vasos vineros</div></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="beber" href="termos.html">
+        <div class="slot"><img src="imagenes/termolase.jpg" alt="Termos"></div>
+        <div class="info"><div class="fam">Para beber</div><h3>Termos</h3></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="beber" href="grabados-laser.html">
+        <div class="slot"></div>
+        <div class="info"><div class="fam">Para beber</div><h3>Grabados láser</h3><div class="sub">Termo con grabado láser</div></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="beber" href="destapadores.html">
+        <div class="slot"></div>
+        <div class="info"><div class="fam">Para beber</div><h3>Destapadores</h3><div class="sub">Destapadores impresos · Destapadores con vinil adhesivo</div></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="hogar" href="cojines-sublimados.html">
+        <div class="slot"><img src="imagenes/Cojinsubli.jpg" alt="Cojines sublimados"></div>
+        <div class="info"><div class="fam">Hogar y regalos</div><h3>Cojines sublimados</h3></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="hogar" href="azulejos-sublimados.html">
+        <div class="slot"><img src="imagenes/Azulejo.jpg" alt="Azulejos sublimados"></div>
+        <div class="info"><div class="fam">Hogar y regalos</div><h3>Azulejos sublimados</h3></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="hogar" href="rompecabezas-personalizados.html">
+        <div class="slot"><img src="imagenes/rompecabezas.jpg" alt="Rompecabezas personalizados"></div>
+        <div class="info"><div class="fam">Hogar y regalos</div><h3>Rompecabezas personalizados</h3></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="hogar" href="tortilleros-personalizados.html">
+        <div class="slot"><img src="imagenes/Tortilleros.jpg" alt="Tortilleros personalizados"></div>
+        <div class="info"><div class="fam">Hogar y regalos</div><h3>Tortilleros personalizados</h3></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="hogar" href="cajas-personalizadas.html">
+        <div class="slot"><img src="imagenes/cajaperso.webp" alt="Cajas personalizadas"></div>
+        <div class="info"><div class="fam">Hogar y regalos</div><h3>Cajas personalizadas</h3></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="impresion" href="lonas-impresas.html">
+        <div class="slot"><img src="imagenes/Lona.png" alt="Lonas impresas"></div>
+        <div class="info"><div class="fam">Impresión y rotulación</div><h3>Lonas impresas</h3></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="impresion" href="stickers.html">
+        <div class="slot"><img src="imagenes/Stickers.jpg" alt="Stickers"></div>
+        <div class="info"><div class="fam">Impresión y rotulación</div><h3>Stickers</h3></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="impresion" href="vinil-adhesivo.html">
+        <div class="slot"><img src="imagenes/viniladhesivo.jpg" alt="Vinil adhesivo"></div>
+        <div class="info"><div class="fam">Impresión y rotulación</div><h3>Vinil adhesivo</h3></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="impresion" href="coroplast.html">
+        <div class="slot"><img src="imagenes/coroplast.jpg" alt="Coroplast"></div>
+        <div class="info"><div class="fam">Impresión y rotulación</div><h3>Coroplast</h3></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+      <a class="card" data-f="impresion" href="invitaciones.html">
+        <div class="slot"><img src="imagenes/invitacion.jpg" alt="Invitaciones"></div>
+        <div class="info"><div class="fam">Impresión y rotulación</div><h3>Invitaciones</h3></div>
+        <span class="go"><span>Ver productos</span><span aria-hidden="true">→</span></span>
+      </a>
+
+      <!-- ESPACIOS PARA MAS PRODUCTOS: -->
+      <div class="card extra"><div class="slot"></div><div class="info"><div class="fam">Espacio libre</div><h3>Nuevo producto</h3></div><span class="go"><span>Próximamente</span><span aria-hidden="true">+</span></span></div>
+      <div class="card extra"><div class="slot"></div><div class="info"><div class="fam">Espacio libre</div><h3>Nuevo producto</h3></div><span class="go"><span>Próximamente</span><span aria-hidden="true">+</span></span></div>
+    </div>
+  </section>
+
+  <section id="como">
+    <div class="how">
+      <div>
+        <h2>Es tan fácil pedir tu diseño</h2>
+        <p class="intro">Desde elegir el producto hasta recibirlo, todo se arregla en pocos pasos.</p>
+        <div class="steps">
+          <details class="step" name="paso" open><summary>Elige tu producto</summary><p>Recorre el catálogo, entra a la línea que te interesa y revisa los diseños con sus precios.</p></details>
+          <details class="step" name="paso"><summary>Cuéntanos tu idea</summary><p>Dinos el texto, los colores o el logo que quieres ver en cada pieza y cuántas necesitas.</p></details>
+          <details class="step" name="paso"><summary>Confirmamos los detalles</summary><p>Revisamos tu pedido contigo para dejar claro el diseño y la cantidad antes de producir.</p></details>
+          <details class="step" name="paso"><summary>Recibe tu pedido</summary><p>Producimos tus piezas personalizadas y te avisamos cuando estén listas.</p></details>
+        </div>
+      </div>
+      <div class="orbit" aria-hidden="true">
+        <div class="ring">
+          <div class="sat"><svg viewBox="0 0 48 48"><path d="M16 6 4 13l5 9 6-3v23h18V19l6 3 5-9-12-7c-1 3-4 5-8 5s-7-2-8-5z"/></svg></div>
+          <div class="sat"><svg viewBox="0 0 48 48"><path d="M10 14h24v18a8 8 0 0 1-8 8h-8a8 8 0 0 1-8-8z"/><path d="M34 18h4a5 5 0 0 1 0 10h-4"/></svg></div>
+          <div class="sat"><svg viewBox="0 0 48 48"><path d="M18 6h12v4H18z"/><path d="M16 10h16v32a2 2 0 0 1-2 2H18a2 2 0 0 1-2-2z"/><path d="M16 20h16"/></svg></div>
+          <div class="sat"><svg viewBox="0 0 48 48"><path d="M8 12c10 4 22 4 32 0 3 10 3 14 0 24-10-4-22-4-32 0-3-10-3-14 0-24z"/></svg></div>
+          <div class="sat"><svg viewBox="0 0 48 48"><path d="M6 12h36v24H6z"/><path d="M16 20h16M16 27h10"/></svg></div>
+          <div class="sat"><svg viewBox="0 0 48 48"><path d="M10 16h28l3 26H7z"/><path d="M17 16v-3a7 7 0 0 1 14 0v3"/></svg></div>
+          <div class="sat"><svg viewBox="0 0 48 48"><path d="M10 10h10a4 4 0 1 1 8 0h10v10a4 4 0 1 0 0 8v10H28a4 4 0 1 0-8 0H10V28a4 4 0 1 1 0-8z"/></svg></div>
+          <div class="sat"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="6"/><path d="M24 4v10M24 34v10M4 24h10M34 24h10"/></svg></div>
+        </div>
+        <div class="ring ring2"></div>
+        <div class="core"><svg viewBox="0 0 32 32"><path d="M16 2c1.2 7.4 6.6 12.8 14 14-7.4 1.2-12.8 6.6-14 14-1.2-7.4-6.6-12.8-14-14C9.4 14.8 14.8 9.4 16 2z"/></svg></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap foot">
+  <div class="foot-mid">
+    <div class="foot-col">
+      <h4>Síguenos</h4>
+      <ul class="soc-icons">
+        <li><a href="https://www.tiktok.com/@danyfer.personali?_r=1&_t=ZS-9BU1nE2d34e" target="_blank" rel="noopener"><span class="bx"><!-- <img src="imagenes/tiktok.png" alt=""> --></span><span class="soc-name">TikTok</span></a></li>
+        <li><a href="#" target="_blank" rel="noopener"><span class="bx"><img src="imagenes/instagram.png" alt=""></span><span class="soc-name">Instagram</span></a></li>
+        <li><a href="https://www.facebook.com/share/1KyU2R5RJh/" target="_blank" rel="noopener"><span class="bx"><img src="imagenes/facebook.png" alt=""></span><span class="soc-name">Facebook</span></a></li>
+        <li><a href="https://wa.me/529666669814" target="_blank" rel="noopener"><span class="bx"><img src="imagenes/whatsapp.png" alt=""></span><span class="soc-name">WhatsApp</span></a></li>
+      </ul>
+    </div>
+
+    <div class="foot-col">
+      <h4>Horario de atención</h4>
+      <dl class="hours">
+        <div><dt>Lunes a viernes</dt><dd>10:00 – 19:00</dd></div>
+        <div><dt>Sábado</dt><dd>10:00 – 14:00</dd></div>
+        <div class="closed"><dt>Domingo</dt><dd>Cerrado</dd></div>
+      </dl>
+    </div>
+
+    <div class="foot-col" id="ubicacion">
+      <h4>Ubicación del local</h4>
+      <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.727930584591!2d-93.9118316!3d16.2344209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8594bb4951ac6e0d%3A0xf26a59e24ce2c691!2sImprenta%20%26%20Bordados%20PersonalizArte!5e0!3m2!1ses-419!2smx!4v1794931383250!5m2!1ses-419!2smx" title="Mapa de la ubicación de PersonalizArte" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+      <div class="addr">
+        <p>15A. Avenida Pte., Santo Domingo, Las Estrellas, 30450 Arriaga, Chis.</p>
+        <a class="btn btn-primary" href="https://maps.app.goo.gl/4VRGB4SieBxqQz3T9" target="_blank" rel="noopener">Cómo llegar</a>
+      </div>
+    </div>
+  </div>
+  <div class="foot-bottom">PersonalizArte · "El arte de plasmar lo que imaginas."</div>
+</footer>
+
+<!-- MENU HAMBURGUESA -->
+<aside class="menu" id="menu" aria-label="Menú">
+  <div class="menu-h">  
+    <a class="logo-slot" href="index.html" aria-label="Inicio"><img src="imagenes/logo.jpeg" alt="PersonalizArte"></a>
+    <a class="x" href="#cerrar" aria-label="Cerrar menú">&times;</a>
+  </div>
+
+  <nav>
+    <a class="main" href="index.html">Inicio</a>
+    <a class="main" href="index.html#vision">Visión</a>
+    <a class="main" href="index.html#catalogo">Catálogo</a>
+    <a class="main" href="index.html#tecnicas">Técnicas</a>
+    <a class="main" href="index.html#como">Cómo pedir</a>
+    <h4>Ropa y textil</h4>
+    <a href="playeras.html">Playeras</a>
+    <a href="gorras.html">Gorras</a>
+    <a href="bolsas.html">Bolsas</a>
+    <h4>Para beber</h4>
+    <a href="tazas.html">Tazas</a>
+    <a href="vasos-vinil.html">Vasos vinil</a>
+    <a href="termos.html">Termos</a>
+    <a href="grabados-laser.html">Grabados láser</a>
+    <a href="destapadores.html">Destapadores</a>
+    <h4>Hogar y regalos</h4>
+    <a href="cojines-sublimados.html">Cojines sublimados</a>
+    <a href="azulejos-sublimados.html">Azulejos sublimados</a>
+    <a href="rompecabezas-personalizados.html">Rompecabezas personalizados</a>
+    <a href="tortilleros-personalizados.html">Tortilleros personalizados</a>
+    <a href="cajas-personalizadas.html">Cajas personalizadas</a>
+    <h4>Impresión y rotulación</h4>
+    <a href="lonas-impresas.html">Lonas impresas</a>
+    <a href="stickers.html">Stickers</a>
+    <a href="vinil-adhesivo.html">Vinil adhesivo</a>
+    <a href="coroplast.html">Coroplast</a>
+    <a href="invitaciones.html">Invitaciones</a>
+  </nav>
+</aside>
+<a class="scrim" href="#cerrar" aria-label="Cerrar menú"></a>
+
+</body>
+</html>
