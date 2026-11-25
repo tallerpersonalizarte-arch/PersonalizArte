@@ -290,6 +290,9 @@ a.map:hover { border-color: rgba(101,167,194,.5); }
 .design .meta { padding-inline: 6px; display: grid; gap: 2px; }
 .design h3 { font-size: 17px; font-weight: 600; }
 .design .v { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.design .price small { font-family: var(--font-body, inherit); font-size: 13px; font-weight: 500; color: var(--muted); }
+.design .price .txt { font-family: var(--font-body, inherit); font-size: 15px; font-weight: 600; }
+.design .pnote { margin-top: 6px; font-size: 13px; line-height: 1.45; color: var(--muted); }
 .design .price { font-family: var(--font-display); font-weight: 700; font-size: 22px; color: var(--a6); margin-top: 6px; font-variant-numeric: tabular-nums; }
 
 /* ---------- 11. Pantallas pequeñas ---------- */
